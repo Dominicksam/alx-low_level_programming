@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-  *main - ENtry point
+  *main - Entry point
   *Description print: alphabets in lower case and followed by a line'
   *Return: ALways 0
   */
@@ -14,5 +14,5 @@ int main(void)
 		n++;
 	}
 	putchar('\n');
-	Return(0);
+	return (0);
 }
