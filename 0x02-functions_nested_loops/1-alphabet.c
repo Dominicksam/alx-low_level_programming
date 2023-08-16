@@ -1,21 +1,18 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include <unistd.h>
 /**
-  *print_alphabet - Entry point
-  *Description : function print_alphabet, in lowercase.
+  *print_alphabet - Prints the alphabet in lowercase
+  *
   *Return : Always (0) success
   */
-
 void print_alphabet(void)
 {
-	char c = 'a';
 
-	while (c <= 'z')
+	int i;
+
+	for (i = 97; i <= 122; i++)
 	{
-		putchar(c);
-		c++;
+		_putchar(i);
+		i++;
 	}
 	_putchar('\n');
-	return (0);
 }
