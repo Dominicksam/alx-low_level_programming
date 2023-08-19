@@ -12,9 +12,9 @@ void print_numbers(void)
 {
 	int n;
 
-	for (n = 48; n , 58; n++)
+	for (n = 48; n < 58; n++)
 	{
-		puthchar(n);
+		putchar(n);
 	}
 	putchar(10);
 }
