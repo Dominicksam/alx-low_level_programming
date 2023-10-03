@@ -8,7 +8,6 @@
  *
  * Return: Always 0.
  */
-ssize_t read_textfile(const char *filename, size_t letters);
 int main(int ac, char **av)
 {
 	ssize_t n;
