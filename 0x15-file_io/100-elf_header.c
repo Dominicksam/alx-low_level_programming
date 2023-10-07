@@ -7,14 +7,14 @@
 #include <sys/stat.h>
 
 void confirm_elf(unsigned char *identfy);
-void print_magic(unsigned char *identfy);
-void print_class(unsigned char *identfy);
-void print_data(unsigned char *identfy);
-void print_version(unsigned char *identfy);
-void print_abi(unsigned char *identfy);
-void print_osabi(unsigned char *identfy);
-void print_type(unsigned int e_type, unsigned char *identfy);
-void print_entry(unsigned long int e_entry, unsigned char *identfy);
+void display_magic(unsigned char *identfy);
+void display_class(unsigned char *identfy);
+void display_data(unsigned char *identfy);
+void display_version(unsigned char *identfy);
+void display_abi(unsigned char *identfy);
+void display_osabi(unsigned char *identfy);
+void display_type(unsigned int e_type, unsigned char *identfy);
+void display_entry(unsigned long int e_entry, unsigned char *identfy);
 void close_elf(int elf);
 
 /**
